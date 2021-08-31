@@ -1,0 +1,95 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>EU Document System</title>
+</head>
+
+<body>
+    <!-- Header Starts -->
+    <div class="header">
+        <div class="header__left">
+            <span class="material-icons"> menu </span>
+            <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        </div>
+
+        <div class="header__middle">
+            <span class="material-icons"> search </span>
+            <input type="text" placeholder="Search Document" />
+            <span class="material-icons"> arrow_drop_down </span>
+        </div>
+
+        <div class="header__right">
+            <span class="material-icons"> notifications </span>
+            <span class="material-icons"> account_circle </span>
+        </div>
+    </div>
+    <!-- Header Ends -->
+
+    <!-- Main Body Starts -->
+    <div class="main__body">
+        <!-- Sidebar Starts -->
+        <div class="sidebar">
+            <a href="submitui.html"><button class="sidebar__compose"><span class="material-icons"> add </span>Submit</button></a>
+            <a href="index.html"><div class="sidebarOption">
+                <span class="material-icons"> inbox </span>
+                <h3>Inbox</h3>
+            </div></a>
+
+            <div class="sidebarOption">
+                <span class="material-icons"> access_time </span>
+                <h3>Snoozed</h3>
+            </div>
+
+            <div class="sidebarOption">
+                <span class="material-icons">explore</span>
+                <h3>Track</h3>
+            </div>
+
+            <div class="sidebarOption">
+                <span class="material-icons"> near_me </span>
+                <h3>Sent</h3>
+            </div>
+
+            <div class="sidebarOption">
+                <span class="material-icons">
+                    assignment_turned_in
+                </span>
+                <h3>Approved</h3>
+            </div>
+
+        </div>
+        <!-- Sidebar Ends -->
+
+        <!-- Sending UI -->
+        <div class="sending-ui">
+            <div class="sending-to">
+                <span class="material-icons">person</span>
+                <input type="text" placeholder="To" />
+            </div>
+
+            <div class="sending-subject">
+                <span class="material-icons">subject</span>
+                <input type="text" placeholder="Subject" />
+            </div>
+
+            <div class="sending-message">
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <div class="sending-buttons">
+                <input type="submit" value="Upload Document">
+                <input type="submit">
+            </div>
+        </div>
+
+
+        <!-- Main Body Ends -->
+</body>
+
+</html>
